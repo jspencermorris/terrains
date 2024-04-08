@@ -113,3 +113,11 @@ def apply_gaussian_filter(image, filt):
     filtered_image = np.abs(filtered_image)
 
     return filtered_image.astype(np.uint8)
+
+def display_counts_per_class(filename, class_dict):
+    sum = 0  
+    for categ in class_dict:
+        print(f'{categ}: {len(class_dict[categ])}')
+        sum += len(class_dict[categ])
+    print(f'Filename: {filename}  Total Count: {sum}')
+    print()
