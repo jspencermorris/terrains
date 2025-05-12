@@ -1,11 +1,9 @@
-The project within this repository was completed as part of the requirements for fulfillment of the course DATASCI281 at the University of California, Berkeley.
 
-Course: DATASCI281 – Computer Vision, Section 1
-Instructor: Rachel Brown
-Assignment: Comprehensive Project
-Title: Terrain Classification using Satellite Images
-Authors: Maiya Caldwell, Muthumayan Madhayyan, and J. Spencer Morris
-Date: 15 April 2024
+Terrain Classification Using Satellite Imagery
+
+Apr 2024
+
+Designed and implemented a computer vision system for automatic terrain classification using high-resolution multispectral imagery; leveraged variety of image analysis and feature extraction approaches to improve model performance.
 
 Virtual environment details in ./requirements.txt.
 
@@ -31,7 +29,7 @@ Data preprocessing and modeling done using Jupyter Notebooks.  Details in ./note
 
 Finalized tuned Models were pickled and are available in ./data/processed/
 
-Interim and final reports in ./reports/.
+Final and interim reports in ./reports/.
 
 Steps to run these notebooks and train the classifiers:
 
